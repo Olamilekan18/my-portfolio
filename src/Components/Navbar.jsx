@@ -27,12 +27,21 @@ export default function Navbar() {
 
   // Scroll to section function
   const scrollToSection = (id) => {
-    const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-      setIsOpen(false); // Close mobile menu after clicking
+    if (id === "Resume") {
+      const resumeLink = document.getElementById("resume-download-link");
+      if (resumeLink) {
+        resumeLink.click(); // Programmatically trigger the download
+      }
+    } else {
+      const section = document.getElementById(id);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+        setIsOpen(false); // Close mobile menu after clicking
+      }
     }
   };
+  
+  
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-white shadow-md">
