@@ -4,9 +4,9 @@ export default function About() {
   return (
     <section
       id="About"
-      className="absolute left-0 w-full h-screen bg-gray-100 flex items-center justify-center p-8"
+      className="absolute top-170 sm:ml-35 lg:ml-10 lg:mr-10 max-w-screen p-30 left-0 w-full z-40 sm:h-250 lg:h-150 mb-10 pb-10 bg-gray-100 flex items-center justify-center "
     >
-      <div className="max-w-3xl bg-white p-6 rounded-lg shadow-md">
+      <div className="max-w-6xl w-full m-auto bg-white p-6 rounded-lg shadow-md">
         <h2 className="text-3xl font-bold text-blue-700 mb-4">About Me</h2>
         <p className="text-gray-700 leading-relaxed mb-4">
           I am a passionate <strong>web and app developer</strong> with expertise in <strong>React, React Native, Express, and Firebase</strong>, specializing in <strong>frontend and backend development</strong> to create seamless, user-friendly applications. My projects span <strong>e-commerce platforms, rental applications, and content-driven websites</strong>, where I integrate features such as <strong>authentication, real-time updates, scheduled content publishing, and personalized user experiences</strong>.

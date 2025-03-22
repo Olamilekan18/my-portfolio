@@ -1,5 +1,6 @@
 import Typewriter from 'typewriter-effect';
 import passportImage from '../assets/passport.jpg';
+import ResumeButton from './Resume-btn';
 
 export default function Resume() {
   return (
@@ -34,14 +35,17 @@ export default function Resume() {
           Hi, I am Olamilekan, a full-stack web devloper and currently honing my app development skills. <br />
           Below is my resume, I'll love to connect with you. 
         </div>
-        <a
-  id="resume-download-link"
-  href="https://drive.google.com/file/d/124KYKzmxvFVPUgV8GrjAE4leFraIJEzZ/view?usp=sharing"
-  download="My_Resume.pdf"
-  className="bg-blue-700 absolute top-100 text-white px-4 py-2 rounded-md hover:bg-white transition inline-block"
->
-  Download Resume
-</a>
+        <div className="absolute top-85 w-full flex justify-center mt-10">
+  <a
+    id="resume-download-link"
+    href="https://drive.google.com/file/d/124KYKzmxvFVPUgV8GrjAE4leFraIJEzZ/view?usp=sharing"
+    download="My_Resume.pdf"
+    className="bg-blue-700 relative  text-white px-6 py-3 rounded-md hover:bg-white hover:text-blue-700 border border-blue-700 transition z-50"
+  >
+    Download Resume
+  </a>
+</div>
+
 
       </div>
     </div>

@@ -44,7 +44,7 @@ export default function Navbar() {
   
 
   return (
-    <nav className="fixed top-0 w-full z-50 bg-white shadow-md">
+    <nav className="fixed top-0 w-full z-45 bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -100,7 +100,7 @@ export default function Navbar() {
                 onClick={() => scrollToSection(section)}
                 className={`block w-full text-left text-lg px-6 py-3 rounded-lg transition duration-300 ease-in-out bg-white-700 ${
                   activeSection === section ? "text-blue-700 font-bold" : "text-gray-700"
-                } hover:text-white bg-blue-700`}
+                } hover:text-blue-700  bg-blue-700`}
               >
                 {section}
               </button>
