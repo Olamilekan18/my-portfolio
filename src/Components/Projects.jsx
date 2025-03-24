@@ -1,83 +1,87 @@
 import ProjectCard from "./ProjectCard";
+import PortfolioImage from "../assets/7-Portfolio.png";
+import EcommerceImage from "../assets/3- E commerce store.png";
+import DeliveryImage from "../assets/Delivery Website.png";
+import MindSpaceImage from "../assets/4-Mindspace.png";
+import BirthdayImage from "../assets/2-Birthday Timer.png";
+import TodoImage from "../assets/5-To do list.png";
+import CalculatorImage from "../assets/Calculator.png";
+import HomifyImage from "../assets/7-Homify.png";
+import BooklyImage from "../assets/Bookly.jpg";
 
 const projects = [
   {
     name: "Portfolio Website",
     description: "A personal portfolio to showcase my skills and projects.",
-    image: "/src/assets/7-Portfolio.png",
+    image: PortfolioImage,
     repoLink: "https://github.com/Olamilekan18/my-portfolio",
     liveLink: "https://yourportfolio.com",
-    techStack: ["React", "Tailwind"]
+    techStack: ["React", "Tailwind"],
   },
   {
     name: "E-commerce App",
     description: "An online store built with React and Firebase.",
-    image: "/src/assets/3- E commerce store.png",
+    image: EcommerceImage,
     repoLink: "https://github.com/Olamilekan18/Store",
     liveLink: "https://ecommerce-demo.com",
-    techStack: ["React", "Node.js", "Firebase"]
+    techStack: ["React", "Node.js", "Firebase"],
   },
   {
     name: "Delivery App",
-    description: "An Delivery App built with Next.js and Tailwind Css",
-    image: "/src/assets/Delivery Website.png",
+    description: "A Delivery App built with Next.js and Tailwind CSS",
+    image: DeliveryImage,
     repoLink: "https://github.com/Olamilekan18/Delivery-app",
     liveLink: "https://delivery-app-pied.vercel.app/",
-    techStack: ["Next.js", "Node.js", "TypeScript", "Tailwind"]
+    techStack: ["Next.js", "Node.js", "TypeScript", "Tailwind"],
   },
   {
     name: "MindSpace App",
-    description: "A Mental Health Application built for students in my Community",
-    image: "/src/assets/4-Mindspace.png",
+    description: "A Mental Health Application built for students in my community.",
+    image: MindSpaceImage,
     repoLink: "https://github.com/Olamilekan18/MindSpace",
     liveLink: "https://mind-space-2.vercel.app/",
-    techStack: ["React", "Node.js", "Tailwind"]
+    techStack: ["React", "Node.js", "Tailwind"],
   },
   {
     name: "My Birthday Countdown",
     description: "Made a countdown to my birthday every year 😂",
-    image: "/src/assets/2-Birthday Timer.png",
+    image: BirthdayImage,
     repoLink: "https://github.com/Olamilekan18/Birthday-Countdown",
     liveLink: "https://birthday-countdown-silk.vercel.app/",
-    techStack: ["HTML", "Tailwind"]
+    techStack: ["HTML", "Tailwind"],
   },
   {
-    name: "To-do list",
-    description: "Made a quick to-do list while learning javasript",
-    image: "/src/assets/5-To do list.png",
+    name: "To-do List",
+    description: "Made a quick to-do list while learning JavaScript.",
+    image: TodoImage,
     repoLink: "https://github.com/Olamilekan18/To-do-app",
     liveLink: "https://to-do-app-eta-snowy.vercel.app/",
-    techStack: ["HTML", "Tailwind"]
+    techStack: ["HTML", "Tailwind"],
   },
   {
     name: "Calculator",
-    description: "Made a custom calculator",
-    image: "/src/assets/Calculator.png",
+    description: "Made a custom calculator.",
+    image: CalculatorImage,
     repoLink: "https://github.com/Olamilekan18/Calculator",
     liveLink: "https://calc-bay-two.vercel.app/",
-    techStack: ["HTML", "Tailwind"]
+    techStack: ["HTML", "Tailwind"],
   },
   {
     name: "Homify",
-    description: "A rental website that connects Agents to those in need of house. Currently in development...",
-    image: "/src/assets/7-Homify.png",
+    description: "A rental website that connects agents to those in need of houses. Currently in development...",
+    image: HomifyImage,
     repoLink: "currently in progress...",
     liveLink: "",
-    techStack: ["Next.js", "Tailwind", "TypeScript", "Node.js"]
+    techStack: ["Next.js", "Tailwind", "TypeScript", "Node.js"],
   },
-
   {
     name: "Bookly",
-    description: "A P2P website that allows users to share and sell educationational resources. Currently in development...",
-    image: "/src/assets/Bookly.jpg",
+    description: "A P2P website that allows users to share and sell educational resources. Currently in development...",
+    image: BooklyImage,
     repoLink: "currently in progress...",
     liveLink: "",
-    techStack: ["Next.js", "Tailwind", "TypeScript", "Node.js"]
+    techStack: ["Next.js", "Tailwind", "TypeScript", "Node.js"],
   },
-
-
-
-
 ];
 
 const ProjectSection = () => {
