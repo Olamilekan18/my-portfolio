@@ -23,7 +23,7 @@ const projects = [
     image: "/src/assets/Delivery Website.png",
     repoLink: "https://github.com/Olamilekan18/Delivery-app",
     liveLink: "https://delivery-app-pied.vercel.app/",
-    techStack: ["Next.js", "Node.js", "Tailwind"]
+    techStack: ["Next.js", "Node.js", "TypeScript", "Tailwind"]
   },
   {
     name: "MindSpace App",
@@ -63,7 +63,7 @@ const projects = [
     image: "/src/assets/7-Homify.png",
     repoLink: "currently in progress...",
     liveLink: "",
-    techStack: ["Next.js", "Tailwind", "Node.js"]
+    techStack: ["Next.js", "Tailwind", "TypeScript", "Node.js"]
   },
 
   {
@@ -72,7 +72,7 @@ const projects = [
     image: "/src/assets/Bookly.jpg",
     repoLink: "currently in progress...",
     liveLink: "",
-    techStack: ["Next.js", "Tailwind", "Node.js"]
+    techStack: ["Next.js", "Tailwind", "TypeScript", "Node.js"]
   },
 
 

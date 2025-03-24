@@ -5,7 +5,7 @@ export default function Resume() {
   return (
     <section id="Resume" className="w-full h-screen flex flex-col items-center justify-center bg-white">
       {/* Container */}
-      <div className="w-screen mr-10 max-w-none flex flex-col md:flex-row items-center text-center md:text-left px-6">
+      <div className="w-screen flex-wrap md:flex-nowrap mr-10 max-w-none flex flex-col md:flex-row items-center text-center md:text-left px-6">
         
         {/* Text Section */}
         <div className="flex-1 space-y-4">

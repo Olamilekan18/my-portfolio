@@ -1,5 +1,5 @@
 import { FaGithub, FaExternalLinkAlt, FaReact, FaNodeJs, FaHtml5 } from "react-icons/fa";
-import { SiTailwindcss, SiFirebase, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiFirebase, SiNextdotjs, SiTypescript } from "react-icons/si";
 
 const ProjectCard = ({ name, description, image, repoLink, liveLink, techStack }) => {
   return (
@@ -17,6 +17,7 @@ const ProjectCard = ({ name, description, image, repoLink, liveLink, techStack }
           {techStack.includes("Tailwind") && <SiTailwindcss className="text-cyan-500 text-xl" />}
           {techStack.includes("Firebase") && <SiFirebase className="text-yellow-500 text-xl" />}
           {techStack.includes("HTML") && <FaHtml5 className="text-orange-500 text-xl" />}
+          {techStack.includes("TypeScript") && <SiTypescript className="text-blue-600 text-xl" />}
         </div>
 
         {/* Buttons */}
