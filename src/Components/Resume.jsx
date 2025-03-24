@@ -1,5 +1,5 @@
 import Typewriter from "typewriter-effect";
-import passportImage from "../assets/passport.jpg";
+import passportImage from "../assets/Passport.jpg";
 
 export default function Resume() {
   return (
