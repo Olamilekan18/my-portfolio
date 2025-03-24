@@ -1,54 +1,46 @@
-import Typewriter from 'typewriter-effect';
-import passportImage from '../assets/passport.jpg';
-import ResumeButton from './Resume-btn';
+import Typewriter from "typewriter-effect";
+import passportImage from "../assets/passport.jpg";
 
 export default function Resume() {
   return (
-    <section id = 'Resume'>
-    <div>
-      <div className="absolute top-25  z-40 m-1 text-center w-max h-16 ml-20">
-        <div className="intro h-screen justify-between flex xl:gap-x-100">
-          <div className="text-center justify-center  text-2xl font-bold">
-            <h1 className="mb-10">Hi, I am Olamilekan</h1>
-            <Typewriter
-              options={{
-                strings: [
-                  "A web and App developer",
-                  "A frontend developer",
-                  "A Computer Science with Mathematics Student",
-                  "A goal getter",
-                ],
-                autoStart: true,
-                loop: true,
-                delay: 15,
-                deleteSpeed: 10,
-              }}
-            />
-          </div>
-    
-  <div className="flex justify-end flex-1 ">
-    <img src={passportImage} alt="Passport" className="w-80  h-80 rounded-full object-cover" />
-  </div>
- 
+    <section id="Resume" className="w-full h-screen flex flex-col items-center justify-center bg-white">
+      {/* Container */}
+      <div className="w-screen mr-10 max-w-none flex flex-col md:flex-row items-center text-center md:text-left px-6">
+        
+        {/* Text Section */}
+        <div className="flex-1 space-y-4">
+          <h1 className="text-4xl font-bold">Hi, I am Olamilekan</h1>
+          <Typewriter
+            options={{
+              strings: [
+                "A Web and App Developer",
+                "A Frontend Developer",
+                "A Computer Science with Mathematics Student",
+                "A Goal Getter",
+              ],
+              autoStart: true,
+              loop: true,
+              delay: 15,
+              deleteSpeed: 10,
+            }}
+          />
+          <p className="text-lg">
+            I'm a full-stack web developer currently honing my app development skills.
+          </p>
+          <a
+            href="https://drive.google.com/file/d/124KYKzmxvFVPUgV8GrjAE4leFraIJEzZ/view?usp=sharing"
+            download="My_Resume.pdf"
+            className="bg-blue-700 text-white px-6 py-3 rounded-md hover:bg-white hover:text-blue-700 border border-blue-700 transition"
+          >
+            Download Resume
+          </a>
         </div>
-        <div  className='absolute top-60 left-1/3 transform -translate-x-1/2 -translate-y-1/2 text-center text-2xl font-bold'>
-          Hi, I am Olamilekan, a full-stack web devloper and currently honing my app development skills. <br />
-          Below is my resume, I'll love to connect with you. 
+
+        {/* Image Section */}
+        <div className="flex justify-center md:justify-end flex-1">
+          <img src={passportImage} alt="Passport" className="w-80 h-80 rounded-full object-cover" />
         </div>
-        <div className="absolute top-85 w-full flex justify-center mt-10">
-  <a
-    id="resume-download-link"
-    href="https://drive.google.com/file/d/124KYKzmxvFVPUgV8GrjAE4leFraIJEzZ/view?usp=sharing"
-    download="My_Resume.pdf"
-    className="bg-blue-700 relative  text-white px-6 py-3 rounded-md hover:bg-white hover:text-blue-700 border border-blue-700 transition z-50"
-  >
-    Download Resume
-  </a>
-</div>
-
-
       </div>
-    </div>
     </section>
   );
 }

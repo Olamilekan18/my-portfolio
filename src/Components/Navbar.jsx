@@ -8,7 +8,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["Resume", "About", "Services", "Contact"];
+      const sections = ["Resume", "About", "Projects", "Contact"];
       sections.forEach((id) => {
         const section = document.getElementById(id);
         if (
@@ -52,7 +52,7 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex space-x-6">
-            {["Resume", "About", "Services", "Contact"].map((section) => (
+            {["Resume", "About", "Projects", "Contact"].map((section) => (
               <button
                 key={section}
                 onClick={() => scrollToSection(section)}
@@ -94,7 +94,7 @@ export default function Navbar() {
 
           {/* Mobile Menu Links */}
           <div className="mt-6 space-y-4">
-            {["Resume", "About", "Services", "Contact"].map((section) => (
+            {["Resume", "About", "Projects", "Contact"].map((section) => (
               <button
                 key={section}
                 onClick={() => scrollToSection(section)}

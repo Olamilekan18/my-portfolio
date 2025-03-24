@@ -3,16 +3,17 @@ import './App.css'
 import Navbar from "./Components/Navbar";
 import Resume from './Components/Resume';
 import About from './Components/About';
-import ResumeButton from './Components/Resume-btn';
+import Projects from './Components/Projects'
 function App() {
 
   return (
-    <>
+    <div className='flex flex-col'>
     <Navbar />
     <Resume />
-    {/* <ResumeButton/> */}
     <About />
-    </>
+    <Projects />
+
+   </div>
   )
 }
 
