@@ -28,7 +28,7 @@ export default function About() {
           <li><strong>Backend:</strong> Node.js, Express, Firebase</li>
           <li><strong>Database:</strong> Firestore, MongoDB</li>
           <li><strong>CMS & Monetization:</strong> WordPress, Google AdSense, SEO Optimization</li>
-          <li><strong>Other Tools:</strong> Git, REST APIs, WebSockets</li>
+          <li><strong>Other Tools:</strong> Git, REST APIs, Typescript,  WebSockets</li>
         </ul>
 
         <p className="text-gray-700 leading-relaxed mt-6 text-sm sm:text-base md:text-lg">
