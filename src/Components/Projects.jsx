@@ -8,6 +8,7 @@ import TodoImage from "../assets/5-To do list.png";
 import CalculatorImage from "../assets/Calculator.png";
 import HomifyImage from "../assets/7-Homify.png";
 import BooklyImage from "../assets/Bookly.jpg";
+import WRBlogImage from "../assets/WRBlog.png";
 
 const projects = [
   {
@@ -41,6 +42,14 @@ const projects = [
     repoLink: "https://github.com/Olamilekan18/MindSpace",
     liveLink: "https://mind-space-2.vercel.app/",
     techStack: ["React", "Node.js", "Tailwind"],
+  },
+    {
+    name: "WRBlog",
+    description: "A blogging platform that allows users to create and share blogs. Currently in development...",
+    image: WRBlogImage,
+    repoLink: "currently in progress...",
+    liveLink: "",
+    techStack: [ "Tailwind", "TypeScript", "Node.js", "React"],
   },
   {
     name: "My Birthday Countdown",
@@ -82,6 +91,7 @@ const projects = [
     liveLink: "",
     techStack: ["Next.js", "Tailwind", "TypeScript", "Node.js"],
   },
+
 ];
 
 const ProjectSection = () => {
