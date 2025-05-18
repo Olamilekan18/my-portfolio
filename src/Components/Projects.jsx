@@ -47,8 +47,8 @@ const projects = [
     name: "WRBlog",
     description: "A blogging platform that allows users to create and share blogs. Currently in development...",
     image: WRBlogImage,
-    repoLink: "currently in progress...",
-    liveLink: "",
+    repoLink: "https;//github/com/Olamilekan18/WRBlog",
+    liveLink: "https://wr-blog.vercel.app/",
     techStack: [ "Tailwind", "TypeScript", "Node.js", "React"],
   },
   {
