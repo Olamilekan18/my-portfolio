@@ -9,7 +9,7 @@ import CalculatorImage from "../assets/Calculator.png";
 import HomifyImage from "../assets/7-Homify.png";
 import BooklyImage from "../assets/Bookly.jpg";
 import WRBlogImage from "../assets/WRBlog.png";
-
+import BaxterImage from "../assets/BaxterImage.png"
 const projects = [
   {
     name: "Portfolio Website",
@@ -33,6 +33,14 @@ const projects = [
     image: DeliveryImage,
     repoLink: "https://github.com/Olamilekan18/Delivery-app",
     liveLink: "https://delivery-app-pied.vercel.app/",
+    techStack: ["Next.js", "Node.js", "TypeScript", "Tailwind"],
+  },
+  {
+    name : "Baxter",
+    description : "An AI powered financial literacy and stock trading platform including other features",
+    image: BaxterImage,
+    repoLink: "https://github.com/Olamilekan18/baxter",
+    liveLink : "https://baxter-hackathon-hy9p.vercel.app/",
     techStack: ["Next.js", "Node.js", "TypeScript", "Tailwind"],
   },
   {
